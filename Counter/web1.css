@@ -1,0 +1,18 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color:blueviolet;
+}
+#buttons{
+    text-align: center;
+}
+.b{
+    padding: 5px 10px;
+    background: #17a777;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+.b:hover{
+    background-color: antiquewhite;
+}

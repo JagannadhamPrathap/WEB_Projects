@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web1.css">
+    <title>Haleluya</title>
+</head>
+<body>
+    <h1 id="head1" style="text-align: center">0</h1>
+    <div id="buttons">
+    <button onclick="sub()" class="b">-</button>
+    <button onclick="reset()" class="b">reset</button>
+    <button onclick="add()" class="b">+</button>
+    </div>
+    <script>
+        counter=0
+        function add(){
+            counter++
+            document.getElementById("head1").textContent = counter
+        }
+        function sub(){
+            counter--
+            document.getElementById("head1").textContent = counter
+        }
+        function reset(){
+            counter = 0
+            document.getElementById("head1").textContent = counter
+        }
+    </script>
+</body>
+</html>
