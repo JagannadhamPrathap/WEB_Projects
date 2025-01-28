@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="web1.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature Conversion:</h1>
+        <input type="Number" id="input" value="0"><br>
+        <input type="radio" id="opt1" name="unit">
+        <label for="opt1">Celsius to Fahren</label><br>
+        <input type="radio" id="opt2" name="unit">
+        <label for="opt2">Fahren to Celsius</label><br>
+        <button type="button" onclick="convert()">Submit</button><br>
+        <p id="result"></p>
+    </form>
+    <script src="web1.js"></script>
+</body>
+</html>
